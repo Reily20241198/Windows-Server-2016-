@@ -130,47 +130,56 @@ New-RDRemoteApp `
 ### 1 – Roles instalados en Server Manager
 Server Manager mostrando AD DS, DNS, IIS y Remote Desktop Services instalados correctamente.
 
-![Server Manager](img1_server_manager.png)
+<img width="1913" height="1044" alt="Screenshot_4" src="https://github.com/user-attachments/assets/9a2e18e3-9144-4dc5-b844-da0711fe9dd1" />
+
 
 ### 2 – Colección RemoteApp
 Resultado de Get-RDSessionCollection mostrando la colección LabRemoteApp activa.
 
-![RD Session Collection](img2_rd_collection.png)
+<img width="726" height="134" alt="Screenshot_5" src="https://github.com/user-attachments/assets/1d13ebaf-fb20-448c-b4a9-7b9c49253b0e" />
+
 
 ### 3 – Aplicación RemoteApp publicada
 Resultado de Get-RDRemoteApp mostrando "Mi Pagina IIS" publicada con IE apuntando a http://localhost:8080.
 
-![RemoteApp Publicada](img3_remoteapp.png)
+<img width="915" height="117" alt="Screenshot_6" src="https://github.com/user-attachments/assets/408fb196-cfc6-4b52-b798-a22153a8f523" />
+
 
 ### 4 – Página IIS personalizada
 Página web en http://localhost:8080 con diseño oscuro y badges de ITLA y Seguridad de Redes.
 
-![Página IIS](img4_iis_page.png)
+<img width="1429" height="771" alt="Screenshot_7" src="https://github.com/user-attachments/assets/d7daa13d-229f-4dd2-a00e-9157c98c2d23" />
+
 
 ### 5 – Portal RD Web Access (desde servidor)
 Portal RD Web Access mostrando la app "Mi Pagina IIS" disponible.
 
-![RD Web Portal](img5_rdweb_portal.png)
+<img width="1099" height="826" alt="Screenshot_8" src="https://github.com/user-attachments/assets/1e336fce-af7b-4eaf-b46a-97be627aa8e1" />
+
 
 ### 6 – Login al portal desde PC física
 Acceso a https://10.0.0.21/RDWeb con credenciales LAB\Administrator desde la PC host.
+<img width="1573" height="720" alt="Screenshot_9" src="https://github.com/user-attachments/assets/198bc4a8-6e65-48c4-bc5a-07a91226a98f" />
 
-![RD Web Login](img6_rdweb_login.png)
+
 
 ### 7 – Página IIS via RemoteApp (Método 1)
 Página IIS abierta a través del portal RD Web Access desde la PC física.
 
-![RemoteApp Funcionando](img7_remoteapp_page.png)
+<img width="1401" height="833" alt="Screenshot_10" src="https://github.com/user-attachments/assets/442aae13-2d76-4aa7-a531-e27059c3370b" />
+
 
 ### 8 – Conexión RDP directa con mstsc (Método 2)
 Ventana mstsc conectándose a WIN-P06OPNTM9N5.lab.local con credenciales de dominio.
 
-![Conexión mstsc](img8_mstsc.png)
+<img width="557" height="280" alt="Screenshot_11" src="https://github.com/user-attachments/assets/b6e972b1-844f-4647-aa36-87775169c0e8" />
+
 
 ### 9 – Portal RD Web Access desde PC física
 Vista del portal desde el navegador del cliente mostrando la app disponible.
 
-![RD Web desde cliente](img9_rdweb_client.jpeg)
+![WhatsApp Image 2026-04-01 at 3 36 13 PM](https://github.com/user-attachments/assets/afae7e43-3be5-4aa0-8058-6b6f4ddc99ca)
+
 
 ---
 
